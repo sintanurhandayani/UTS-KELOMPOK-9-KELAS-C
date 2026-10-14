@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gabungan CV — Sinta • Raya • Adib</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Gabungan CV</h1>
+    <p class="subtitle">Klik nama untuk melihat CV lengkap — tampilan aesthetic & girly</p>
+  </header>
+
+  <main class="container">
+    <section class="cards" id="cards">
+      <!-- Kartu di-generate oleh JS -->
+    </section>
+  </main>
+
+  <!-- Modal / CV view -->
+  <div id="cvModal" class="modal" aria-hidden="true">
+    <div class="modal-inner" role="dialog" aria-modal="true">
+      <button class="close-btn" id="closeBtn" aria-label="Tutup CV">×</button>
+      <div class="cv-actions">
+        <button id="printBtn">Print / Save PDF</button>
+      </div>
+      <article id="cvContent" class="cv-content">
+        <!-- Konten CV diisi oleh JS -->
+      </article>
+    </div>
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+  </div>
+
+  <footer class="site-footer">
+    <small>Template generated — sesuaikan konten pada scripts.js</small>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
